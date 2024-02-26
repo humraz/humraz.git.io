@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/humraz.git.io/static/css/main.f85e0186.css",
-    "main.js": "/humraz.git.io/static/js/main.8fbf77d3.js",
+    "main.css": "/humraz.git.io/static/css/main.ade1c9b3.css",
+    "main.js": "/humraz.git.io/static/js/main.1c12146e.js",
     "static/media/hlogo.png": "/humraz.git.io/static/media/hlogo.aaaa4dd1bd5fc4b0da52.png",
     "static/media/phone.png": "/humraz.git.io/static/media/phone.55f60239547593a1b5d5.png",
     "static/media/email.png": "/humraz.git.io/static/media/email.ed4eda199be9250fc281.png",
     "static/media/instagram.png": "/humraz.git.io/static/media/instagram.776d16d0e9daa177afd5.png",
     "static/media/linkedin.png": "/humraz.git.io/static/media/linkedin.16911adb36e92af2a52d.png",
     "index.html": "/humraz.git.io/index.html",
-    "main.f85e0186.css.map": "/humraz.git.io/static/css/main.f85e0186.css.map",
-    "main.8fbf77d3.js.map": "/humraz.git.io/static/js/main.8fbf77d3.js.map"
+    "main.ade1c9b3.css.map": "/humraz.git.io/static/css/main.ade1c9b3.css.map",
+    "main.1c12146e.js.map": "/humraz.git.io/static/js/main.1c12146e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f85e0186.css",
-    "static/js/main.8fbf77d3.js"
+    "static/css/main.ade1c9b3.css",
+    "static/js/main.1c12146e.js"
   ]
 }
