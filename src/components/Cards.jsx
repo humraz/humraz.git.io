@@ -15,8 +15,8 @@ function Subcard(props) {
                     </div>
                 </div>
                 <div>
-                    <button href="#" class=" focus:outline-none focus:ring focus:ring-blue-600 bg-blue-500 hover:bg-blue-400 text-white  md:w-40 w-25 px-2 py-2 inline-block mt-4 rounded m-2 transition">Learn More</button>
-                </div>
+                  { /* <button href="#" class=" focus:outline-none focus:ring focus:ring-blue-600 bg-blue-500 hover:bg-blue-400 text-white  md:w-40 w-25 px-2 py-2 inline-block mt-4 rounded m-2 transition">Learn More</button>
+               */} </div>
             </div>
     )
 }
@@ -24,17 +24,12 @@ function Subcard(props) {
 function Cards(){
     return (
         <div class="grid grid-flow-col  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
-            <Subcard title='Java Dev' content=' You have extensive experience in Java development, including frameworks like Java Spring Boot'/>
-
-            <Subcard title='Robotic Process Automation' content='You have worked with RPA tools such as Automation Anywhere and have experience in developing bots for automating tasks, showcasing your expertise in process automation'/>
-
-            <Subcard title='Data Analysis and Viz' content='You have worked on data analysis and visualization tools like Power BI & Tableau, indicating proficiency in interpreting and presenting data'/>
-
-            <Subcard title='Innovation' content='Your involvement in implementing solutions using Generative AI and Large Language models showcases your problem-solving skills and innovation mindset'/>
-            <Subcard title='Leadership Skill' content='Your role in facilitating Googles applied CS with Android course and conducting workshops demonstrates leadership and collaboration skills'/>
-            <Subcard title='Agile' content='You have followed agile best practices, including participating in Hackathons, indicating adaptability and collaborative skills in agile environments'/>
-            
-            
+            <Subcard title='Java Dynamo' content='I have extensive experience in Java development, specializing in frameworks like Java Spring Boot. My proficiency in backend development ensures robust and scalable solutions.'/>
+            <Subcard title='RPA Specialist' content='I have hands-on experience with RPA tools such as Automation Anywhere, crafting bots to automate tasks effectively. My expertise in process automation streamlines operations and enhances efficiency.'/>
+            <Subcard title='Data Alchemist' content='I leverage data analysis and visualization tools like Power BI & Tableau to derive actionable insights and present data effectively. My proficiency in interpreting data drives informed decision-making.'/>
+            <Subcard title='Innovation Luminary' content='My involvement in implementing solutions using Generative AI and Large Language models showcases your problem-solving skills and innovation mindset'/>
+            <Subcard title='Leadership Virtuoso' content='I have a proven track record of leadership, including facilitating Googles applied CS with Android course and conducting workshops. My collaborative approach fosters teamwork and drives project success.'/>
+            <Subcard title='Agile Maestro' content='I adhere to agile best practices, actively participating in Hackathons to foster adaptability and collaboration in dynamic environments. My agile mindset drives iterative development and continuous improvement.'/>  
     </div>
     );
 }
