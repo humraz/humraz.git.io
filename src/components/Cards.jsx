@@ -24,15 +24,15 @@ function Subcard(props) {
 function Cards(){
     return (
         <div class="grid grid-flow-col  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
-            <Subcard title='Java Development' content=' You have extensive experience in Java development, including frameworks like Java Spring Boot'/>
+            <Subcard title='Java Dev' content=' You have extensive experience in Java development, including frameworks like Java Spring Boot'/>
 
-            <Subcard title='RPA (Robotic Process Automation)' content='You have worked with RPA tools such as Automation Anywhere and have experience in developing bots for automating tasks, showcasing your expertise in process automation'/>
+            <Subcard title='Robotic Process Automation' content='You have worked with RPA tools such as Automation Anywhere and have experience in developing bots for automating tasks, showcasing your expertise in process automation'/>
 
-            <Subcard title='Data Analysis and Visualization' content='You have worked on data analysis and visualization tools like Power BI & Tableau, indicating proficiency in interpreting and presenting data'/>
+            <Subcard title='Data Analysis and Viz' content='You have worked on data analysis and visualization tools like Power BI & Tableau, indicating proficiency in interpreting and presenting data'/>
 
-            <Subcard title='Problem Solving and Innovation' content='Your involvement in implementing solutions using Generative AI and Large Language models showcases your problem-solving skills and innovation mindset'/>
-            <Subcard title='Leadership and Collaboration' content='Your role in facilitating Googles applied CS with Android course and conducting workshops demonstrates leadership and collaboration skills'/>
-            <Subcard title='Agile Methodologies' content='You have followed agile best practices, including participating in Hackathons, indicating adaptability and collaborative skills in agile environments'/>
+            <Subcard title='Innovation' content='Your involvement in implementing solutions using Generative AI and Large Language models showcases your problem-solving skills and innovation mindset'/>
+            <Subcard title='Leadership Skill' content='Your role in facilitating Googles applied CS with Android course and conducting workshops demonstrates leadership and collaboration skills'/>
+            <Subcard title='Agile' content='You have followed agile best practices, including participating in Hackathons, indicating adaptability and collaborative skills in agile environments'/>
             
             
     </div>

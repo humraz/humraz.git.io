@@ -34,14 +34,14 @@ function Contact(){
             Let's Connect!
             </h1>
             
-            <div className="flex text-center justify-center mb-10 mt-7 space-x-16 mx-auto">
-                <h1 className="w-12 h-12 object-cover"> <img src={linkedin}></img><a href="https://www.linkedin.com/in/humrazsait"  >Linkedin</a> </h1>
-                <h1 className="w-12 h-12 object-cover">  <img src={phone}></img><a href="tel:+919633239293"  >Phone</a> </h1>
-                <h1 className="w-12 h-12 object-cover">  <img src={instagram}></img><a href="https://www.linkedin.com/in/humrazsait"  >Instagram</a> </h1>
-                <h1 className="w-12 h-12 object-cover">  <img src={email}></img><a href="mailto:humrazsait@gmail.com"  >Gmail</a> </h1>
+            <div className="flex text-center justify-center mb-10 mt-7 space-x-8 mx-auto">
+                <h1 className="w-12 h-12 object-cover flex flex-col items-center"> <img src={linkedin}></img><a href="https://www.linkedin.com/in/humrazsait"  >Linkedin</a> </h1>
+                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={phone}></img><a href="tel:+919633239293"  >Phone</a> </h1>
+                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={instagram}></img><a href="https://www.linkedin.com/in/humrazsait"  >Insta</a> </h1>
+                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={email}></img><a href="mailto:humrazsait@gmail.com"  >Gmail</a> </h1>
             </div>
 
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
             Interested in learning more about my skills, expertise, or past projects? Feel free to send me a message! Whether you have questions, collaboration ideas, or just want to say hello, I'm always eager to connect and share insights. Looking forward to hearing from you!
             </p>
 
