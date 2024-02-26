@@ -1,8 +1,8 @@
 {
   "name": "portfolio-test",
   "version": "0.1.0",
-  "private": true,
-  "homepage":"https://humraz.github.io",
+  "private": false,
+  "homepage":"https://humraz.github.io/humraz.git.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
