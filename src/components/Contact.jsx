@@ -27,7 +27,7 @@ function Contact(){
 
     return(
         <div>
-      <section id="contact" className="text-gray-700 body-font relative bg-white opacity-90 rounded-lg">
+      <section id="contact" className="text-gray-700 body-font relative bg-white opacity-90 rounded-lg m-5">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col  w-full mb-5">
             <h1 className="sm:text-3xl text-2xl  text-center font-medium title-font mb-4 text-gray-900">
@@ -35,10 +35,10 @@ function Contact(){
             </h1>
             
             <div className="flex text-center justify-center mb-10 mt-7 space-x-16 mx-auto">
-                <h1 className='md:size-12 font-semibold italic hover:scale-110 duration-1000'> <img src={linkedin}></img><a href="https://www.linkedin.com/in/humrazsait"  >Linkedin</a> </h1>
-                <h1 className='md:size-12 font-semibold italic hover:scale-110 duration-1000'> <img src={phone}></img><a href="tel:+919633239293"  >Phone</a> </h1>
-                <h1 className='md:size-12 font-semibold italic hover:scale-110 duration-1000'> <img src={instagram}></img><a href="https://www.linkedin.com/in/humrazsait"  >Instagram</a> </h1>
-                <h1 className='md:size-12  font-semibold italic hover:scale-110 duration-1000'> <img src={email}></img><a href="mailto:humrazsait@gmail.com"  >Gmail</a> </h1>
+                <h1 className="w-12 h-12 object-cover"> <img src={linkedin}></img><a href="https://www.linkedin.com/in/humrazsait"  >Linkedin</a> </h1>
+                <h1 className="w-12 h-12 object-cover">  <img src={phone}></img><a href="tel:+919633239293"  >Phone</a> </h1>
+                <h1 className="w-12 h-12 object-cover">  <img src={instagram}></img><a href="https://www.linkedin.com/in/humrazsait"  >Instagram</a> </h1>
+                <h1 className="w-12 h-12 object-cover">  <img src={email}></img><a href="mailto:humrazsait@gmail.com"  >Gmail</a> </h1>
             </div>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">

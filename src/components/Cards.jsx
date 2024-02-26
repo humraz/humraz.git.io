@@ -5,17 +5,17 @@ import React from "react"
 
 function Subcard(props) {
     return(
-        <div class="w-56 h-100 bg-white rounded-lg flex m-auto justify-center text-center">
+        <div class="opacity-95 ml-5 mr-5 hover:scale-105 duration-500 overflow-auto bg-white rounded-lg  justify-center text-center">
                 <div class="divide-y divide-gray">
-                    <div class="p-5 md:text-xl text-sm">
+                    <div class="p-5 text-sm font-bold">
                         {props.title}
                     </div>
-                    <div class="p-5  md:text-xl text-sm">
+                    <div class="p-5  text-sm">
                         {props.content}
-                        <div class="mt-4">
-                            <button href="#" class="focus:outline-none focus:ring focus:ring-blue-600 bg-blue-500 hover:bg-blue-400 text-white  md:w-40 w-25 px-2 py-2 inline-block mt-4 rounded m-2 transition">Learn More</button>
-                        </div>
                     </div>
+                </div>
+                <div>
+                    <button href="#" class=" focus:outline-none focus:ring focus:ring-blue-600 bg-blue-500 hover:bg-blue-400 text-white  md:w-40 w-25 px-2 py-2 inline-block mt-4 rounded m-2 transition">Learn More</button>
                 </div>
             </div>
     )
@@ -23,9 +23,7 @@ function Subcard(props) {
 
 function Cards(){
     return (
-        <div class="grid grid-flow-col md:grid-rows-1 grid-rows-3 justify-center h-screen md:space-x-16 space-x-5">
-            
-            
+        <div class="grid grid-flow-col  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
             <Subcard title='Java Development' content=' You have extensive experience in Java development, including frameworks like Java Spring Boot'/>
 
             <Subcard title='RPA (Robotic Process Automation)' content='You have worked with RPA tools such as Automation Anywhere and have experience in developing bots for automating tasks, showcasing your expertise in process automation'/>
