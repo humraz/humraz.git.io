@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/humraz.git.io/static/css/main.4b2bdcd3.css",
-    "main.js": "/humraz.git.io/static/js/main.2d8e099e.js",
+    "main.css": "/humraz.git.io/static/css/main.2cf9e4ac.css",
+    "main.js": "/humraz.git.io/static/js/main.81bdc462.js",
+    "static/media/data.png": "/humraz.git.io/static/media/data.4343ab2a901b51933dfd.png",
+    "static/media/react.png": "/humraz.git.io/static/media/react.35639ed930462bfcd544.png",
+    "static/media/java.png": "/humraz.git.io/static/media/java.f4ea765878d6e68edefd.png",
+    "static/media/rpa.png": "/humraz.git.io/static/media/rpa.d1049f524e195c576b36.png",
+    "static/media/agile.png": "/humraz.git.io/static/media/agile.49fd5e2b16374179932a.png",
     "static/media/hlogo.png": "/humraz.git.io/static/media/hlogo.aaaa4dd1bd5fc4b0da52.png",
     "static/media/email.png": "/humraz.git.io/static/media/email.ed4eda199be9250fc281.png",
     "static/media/instagram.png": "/humraz.git.io/static/media/instagram.1b6d5b2d853407a9677c.png",
+    "static/media/3d.png": "/humraz.git.io/static/media/3d.5ff7e057e3da16fe7a25.png",
     "static/media/phone.png": "/humraz.git.io/static/media/phone.b76498e5c124d5213615.png",
     "static/media/linkedin.png": "/humraz.git.io/static/media/linkedin.16911adb36e92af2a52d.png",
     "index.html": "/humraz.git.io/index.html",
-    "main.4b2bdcd3.css.map": "/humraz.git.io/static/css/main.4b2bdcd3.css.map",
-    "main.2d8e099e.js.map": "/humraz.git.io/static/js/main.2d8e099e.js.map"
+    "main.2cf9e4ac.css.map": "/humraz.git.io/static/css/main.2cf9e4ac.css.map",
+    "main.81bdc462.js.map": "/humraz.git.io/static/js/main.81bdc462.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b2bdcd3.css",
-    "static/js/main.2d8e099e.js"
+    "static/css/main.2cf9e4ac.css",
+    "static/js/main.81bdc462.js"
   ]
 }
