@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/humraz.git.io/static/css/main.2cf9e4ac.css",
-    "main.js": "/humraz.git.io/static/js/main.81bdc462.js",
+    "main.js": "/humraz.git.io/static/js/main.4e0c6e18.js",
     "static/media/data.png": "/humraz.git.io/static/media/data.4343ab2a901b51933dfd.png",
     "static/media/react.png": "/humraz.git.io/static/media/react.35639ed930462bfcd544.png",
     "static/media/java.png": "/humraz.git.io/static/media/java.f4ea765878d6e68edefd.png",
@@ -15,10 +15,10 @@
     "static/media/linkedin.png": "/humraz.git.io/static/media/linkedin.16911adb36e92af2a52d.png",
     "index.html": "/humraz.git.io/index.html",
     "main.2cf9e4ac.css.map": "/humraz.git.io/static/css/main.2cf9e4ac.css.map",
-    "main.81bdc462.js.map": "/humraz.git.io/static/js/main.81bdc462.js.map"
+    "main.4e0c6e18.js.map": "/humraz.git.io/static/js/main.4e0c6e18.js.map"
   },
   "entrypoints": [
     "static/css/main.2cf9e4ac.css",
-    "static/js/main.81bdc462.js"
+    "static/js/main.4e0c6e18.js"
   ]
 }
