@@ -23,8 +23,8 @@ function Subcard(props) {
                         <p>{props.title}</p>
                     </div>
                     
-                    <div className="p-5 justify-center items-center w-44 row-span-10">
-                        <img className="p-5 hover:scale-125 duration-500" src={props.image} alt={props.title}></img>
+                    <div className="p-5 flex justify-center items-center">
+                        <img className="p-5 hover:scale-125 duration-500 object-contain" src={props.image} alt={props.title}></img>
                         
                     </div>
                     
@@ -76,7 +76,7 @@ function Subcard(props) {
 
 function Cards(){
     return (
-        <div class="grid grid-flow-col ml-5  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
+        <div class="grid grid-cols-2 md:grid-cols-6 m-5 gap-10 justify-center mb-20">
             <Subcard title='Java & Spring Boot' image={java} content={javacontent}/>
             <Subcard title='Fullstack Specialist' image={react} content=''/>
             <Subcard title='RPA Specialist' image={rpa} content={rpacontent}/>
