@@ -34,11 +34,11 @@ function Contact(){
             Let's Connect!
             </h1>
             
-            <div className="flex text-center justify-center mb-10 mt-7 space-x-8 mx-auto">
-                <h1 className="w-12 h-12 object-cover flex flex-col items-center"> <img src={linkedin}></img><a href="https://www.linkedin.com/in/humrazsait"  >Linkedin</a> </h1>
-                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={phone}></img><a href="tel:+919633239293"  >Phone</a> </h1>
-                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={instagram}></img><a href="https://www.linkedin.com/in/humrazsait"  >Insta</a> </h1>
-                <h1 className="w-12 h-12 object-cover flex flex-col items-center">  <img src={email}></img><a href="mailto:humrazsait@gmail.com"  >Gmail</a> </h1>
+            <div className="flex text-center justify-center mb-10 mt-7 space-x-8 mx-auto ">
+                <h1 className="hover:animate-bounce duration-500 w-12 h-12 object-cover flex flex-col items-center font-bold"> <a href="https://www.linkedin.com/in/humrazsait" className='items-center flex flex-col'> <img  className="w-12 h-12 " src={linkedin} alt="LinkedIn"></img> Linkedin</a> </h1>
+                <h1 className="hover:animate-bounce duration-500 w-12 h-12 object-cover flex flex-col items-center font-bold">  <a href="tel:+919633239293"  > <img src={phone} alt="Phone Number"></img> Phone</a> </h1>
+                <h1 className="hover:animate-bounce duration-500 w-12 h-12 object-cover flex flex-col items-center font-bold">  <a href="https://www.linkedin.com/in/humrazsait"  > <img src={instagram} alt="Instagram"></img> Insta</a> </h1>
+                <h1 className="hover:animate-bounce duration-500 w-12 h-12 object-cover flex flex-col items-center font-bold">  <a href="mailto:humrazsait@gmail.com"  > <img src={email} alt="Gmail"></img> Gmail</a> </h1>
             </div>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-center">
