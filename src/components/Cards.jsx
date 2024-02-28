@@ -17,7 +17,7 @@ function Subcard(props) {
     return(
             <section id="skills">
 
-            <div className="opacity-95 ml-5 relative overflow-auto bg-white rounded-md  justify-center text-center">
+            <div className="opacity-95 relative overflow-auto bg-white rounded-md  justify-center text-center">
                 <div className="grid grid-rows-3 gap-4 h-60">
                     <div className="p-3 text-sm font-bold ">
                         <p>{props.title}</p>
@@ -76,7 +76,7 @@ function Subcard(props) {
 
 function Cards(){
     return (
-        <div class="grid grid-flow-col  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
+        <div class="grid grid-flow-col ml-5  md:grid-rows-1 grid-rows-3 justify-center md:space-x-16 space-x-5 gap-y-10 mb-20 mr-2">
             <Subcard title='Java & Spring Boot' image={java} content={javacontent}/>
             <Subcard title='Fullstack Specialist' image={react} content=''/>
             <Subcard title='RPA Specialist' image={rpa} content={rpacontent}/>
