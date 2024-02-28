@@ -3,14 +3,14 @@ import { Typed } from "react-typed";
 // import photo from '../assets/photo.jpg'
 
 const stringtoshow=[
-    "a Fullstack Developer",
     "a Spring Boot Developer",
     "a DSA Expert",
-    "an Innovator and Enabler",
-    "RPA Certified",
-    "a Dev Ops Professional",
-    "an Azure Architect",
+    "a React JS Developer",
     "a Java Specialist",
+    "an Azure Architect",
+    "an Innovator and Enabler",
+    "RPA Certified Specialist",
+    "a Dev Ops Professional",    
 ];
 
 
