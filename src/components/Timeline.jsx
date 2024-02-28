@@ -4,12 +4,13 @@ function Timeline(){
     return(
         <div className="bg-white md:m-32 m-5  mb-20 justify-center h-full items-center rounded-3xl md:p-20 p-5">   
             <ol class="relative border-s border-gray-200 dark:border-gray-700 ">                               
-                <Item date="03/2022-Present" title="Senior Technical Specialist & Technical Lead" description="Experienced software professional specializing in developing custom solutions for telecommunications. Led end-to-end development, testing, and deployment of Automation Platform As A Service (APaaS), resulting in $1.8 million annual savings. Recognized for implementing solutions that generated $5 million in revenue and saved $788K through process enhancements. Proactively monitored technical metrics using Power BI Dashboards, earning prestigious awards like the Connection Award by ATT. Proficient in agile methodologies, automation tools, and system analysis. Skilled in training and fostering a culture of continuous learning."/>  
+                <Item date="03/2022-Present" title="AT&T - Senior Technical Specialist & Technical Lead" description="Experienced Java and Spring Boot professional specializing in developing custom solutions for telecommunications. Led end-to-end development, testing, and deployment of Automation Platform As A Service (APaaS), resulting in $1.8 million annual savings. Recognized for implementing solutions that generated $5 million in revenue and saved $788K through process enhancements. Proactively monitored technical metrics using Power BI Dashboards, earning prestigious awards like the Connection Award by ATT. Proficient in agile methodologies, automation tools, and system analysis. Skilled in training and fostering a culture of continuous learning."/>  
+                <Item date="10-2018-02/2022" title="Deloitte USI - Consultant" description="Experienced RPA professional with a proven track record of leveraging automation, VBA tools, and data analysis to drive operational efficiency and cost savings. Successfully developed over 40 bots, saving clients 35,000+ hours annually through automation of maintenance tasks. A notable achievement includes creating a large load bot that streamlined medication record updates, saving 2,500 hours of manual effort annually. Proficient in identifying pain points and implementing AI & ML solutions to optimize workflows and enhance user experience. Demonstrated ability to showcase innovative tools and accelerators to clients, ensuring clear understanding of automation strategies."/>  
+
             </ol>
         </div>
     );
 }
-
 function Item(props) {
     return (
         <li class="mb-10 ms-4">
