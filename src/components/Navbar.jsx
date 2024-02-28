@@ -12,9 +12,10 @@ function Navbar(){
                 <img  src={logo} alt ='logo'></img>
             </div>
             <div className='text-white      flex justify-end items-center h-20 ms-auto '>
-                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 filter hover:duration-500'>Home</h1>
-                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 filter hover:duration-500'><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link></h1>
-                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 filter hover:duration-500'>About</h1>
+                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:text-blue-400 hover:scale-125 filter hover:duration-500'><Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></h1>
+                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 hover:text-blue-400  filter hover:duration-500'><Link activeClass="active" to="experience" spy={true} smooth={true} offset={-70} duration={500}>Experience</Link></h1>
+                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 hover:text-blue-400 filter hover:duration-500'><Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></h1>
+                <h1 className='md:font-bold font-semibold md:text-2xl md:px-5 md:m-3 px-2 hover:opacity-150 hover:scale-125 filter hover:text-blue-400 hover:duration-500'><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link></h1>
             </div>
 
 

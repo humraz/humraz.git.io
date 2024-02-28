@@ -5,7 +5,8 @@ import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Timeline from "./components/Timeline"
 import React, { useEffect, useRef, useState } from "react";
-
+import { Helmet } from 'react-helmet'
+import logo from './assets/hlogo.png'
 
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,6 +45,10 @@ const App = () => {
     
     return (
       <div className="relative">
+        <Helmet>
+            <title>Humraz</title>
+            <link rel="icon" type="image/png" href={logo} sizes="16x16" />
+        </Helmet>
           <Particle />
             <main className="md:px-20 lg:px-40 relative z-10">
           <Navbar />

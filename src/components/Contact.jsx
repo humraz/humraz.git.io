@@ -63,7 +63,7 @@ function Contact(){
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-blue-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -81,7 +81,7 @@ function Contact(){
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-blue-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -98,21 +98,21 @@ function Contact(){
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-blue-400 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button type="submit" className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <button type="submit" className="flex mx-auto text-white bg-black border-0 py-1 px-5 focus:outline-none hover:bg-blue-400 rounded text-lg">
                   Send
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">humrazsait@gmail.com</a>
+                <a className="text-blue-400">humrazsait@gmail.com</a>
                 <p className="leading-normal my-5">
-                  Hyderabad
+                Hyderabad, India
                   <br />
-                  India
+                  © 2024
                 </p>
                 
               </div>

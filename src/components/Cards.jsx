@@ -15,21 +15,22 @@ let agilecontent= "Demonstrated proficiency in Agile/SAFe practices as a Certifi
 function Subcard(props) {
     const [showModal, setShowModal] = React.useState(false);
     return(
-        <>
-        <div className="opacity-95 ml-5  hover:scale-105 duration-500 relative overflow-auto bg-white rounded-md  justify-center text-center">
+            <section id="skills">
+
+            <div className="opacity-95 ml-5 relative overflow-auto bg-white rounded-md  justify-center text-center">
                 <div className="grid grid-rows-3 gap-4 h-60">
                     <div className="p-3 text-sm font-bold ">
                         <p>{props.title}</p>
                     </div>
                     
                     <div className="p-5 justify-center items-center w-44 row-span-10">
-                        <img className="p-5" src={props.image} alt={props.title}></img>
+                        <img className="p-5 hover:scale-125 duration-500" src={props.image} alt={props.title}></img>
                         
                     </div>
                     
                 </div>
                 <div className=" bottom-5 right-5 left-5">   
-                        <button className="bg-black text-white active:bg-pink-600  justify-end text-sm px-2 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-700 " type="button" onClick={() => setShowModal(true)}>Read More</button> </div>
+                        <button className="bg-black text-white hover:bg-blue-400  justify-end text-sm px-2 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-200 " type="button" onClick={() => setShowModal(true)}>Read More</button> </div>
                  </div>
 
             {showModal ? (
@@ -68,7 +69,7 @@ function Subcard(props) {
                 <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
                 </>
             ) : null}
-        </>
+            </section>
             
     )
 }
