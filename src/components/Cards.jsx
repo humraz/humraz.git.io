@@ -69,7 +69,8 @@ function Subcard(props) {
                   <button
                     className="text-gray-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
-                    onClick={() => setShowModal(false)}>
+                    onClick={() => setShowModal(false)}
+                  >
                     Close
                   </button>
                 </div>
@@ -90,7 +91,11 @@ function Cards() {
       <Subcard title="React Developer" image={react} content={reactcontent} />
       <Subcard title="RPA Specialist" image={rpa} content={rpacontent} />
       <Subcard title="Data Alchemist" image={data} content={datacontent} />
-      <Subcard title="Technical Architect" image={devops} content={architectcontent}/>
+      <Subcard
+        title="Technical Architect"
+        image={devops}
+        content={architectcontent}
+      />
       <Subcard title="Agile Maestro" image={agile} content={agilecontent} />
     </div>
   );
