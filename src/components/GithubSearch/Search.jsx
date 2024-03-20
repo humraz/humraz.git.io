@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import "../components/styles.css";
-import searchicon from "../assets/icon-search.svg";
-import profilepic from "../assets/octocat.png";
-import sun from "../assets/icon-sun.svg";
-import moon from "../assets/icon-moon.svg";
-
-import location from "../assets/icon-location.svg";
-import social from "../assets/icon-twitter.svg"
-import building from "../assets/icon-company.svg"
-import link from "../assets/icon-website.svg"
+import "../GithubSearch/styles.css";
+import searchicon from "../GithubSearch/assets/icon-search.svg";
+import profilepic from "../GithubSearch/assets/octocat.png";
+import sun from "../GithubSearch/assets/icon-sun.svg";
+import moon from "../GithubSearch/assets/icon-moon.svg";
+import location from "../GithubSearch/assets/icon-location.svg";
+import social from "../GithubSearch/assets/icon-twitter.svg"
+import building from "../GithubSearch/assets/icon-company.svg"
+import link from "../GithubSearch/assets/icon-website.svg"
 
 export default function Search() {
   const [inputsearch,setinputsearch] = useState("")
@@ -25,7 +24,7 @@ export default function Search() {
   {
     const response = await fetch(`https://api.github.com/users/${inputsearch}`);
     const data = await response.json();
-    setloading(!loading);
+    setloading(true);
     console.log(data);
     setresponse(data);
   }
@@ -67,18 +66,19 @@ export default function Search() {
           <button onClick={()=>handlesubmit()} className="searchbtn">Search</button>
         </div>
 
-        <div className="infocard">
+        { loading && 
+          (<div className="infocard">
           <div className="profilepic">
             <img className="profileimage" src={response["avatar_url"]}></img>
           </div>
           <div className="infoflex">
             <div className="infogridone">
-              <p className="username">{response["name"]}</p>
-              <p className="joineditem">joined: {response["created_at"].substring(0,10)}</p>
+              <p className="username">{response["name"]}</p>           
+              <p className="joineditem">{response["created_at"]?response["created_at"].substring(0,10) : null}</p>
             </div>
             <p className="usernametag">@{response["login"]}</p>
             <p className="bio">{response["bio"]?response["bio"]:"This profile has no bio"}</p>
-            <div className="insidecard">
+            <div className="insidecardgithub">
               <div className="insidecardflex">
                 <p>Repos</p>
                 <p>{response["public_repos"]}</p>
@@ -115,7 +115,8 @@ export default function Search() {
               </div>
             </div>
           </div>
-        </div>
+        </div>)
+        }
       </div>
     </>
   );

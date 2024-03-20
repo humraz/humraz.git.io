@@ -1,0 +1,210 @@
+.mainpage{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%,10%);
+}
+
+.modalopen{
+    position: fixed;
+    z-index: 10;
+    background-color: grey;
+}
+
+.Navbarmain{
+    display: flex;
+    height: 5%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-left: auto;
+}
+
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.topcontent{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 100%;
+}
+
+.maincontentcard{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainimage{
+    width: 100%;
+    
+}
+
+.mainflex{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: start;
+    justify-content: center;
+}
+
+.mainflexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext{
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.buttonstyle{
+    background-color: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.smalltextmain{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.sidecard{
+    background-color: black;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.newtext{
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.sidecontentcards{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.line{
+    margin: 0;
+    border-top: 1px solid white;
+    margin: 15px;
+}
+
+.smallcardtitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.smallcardcontent{
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.menubar{
+    position: fixed;
+    top: 5%;
+    right: 1%;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    transition: 900;
+    border: 1px solid grey;
+    border-radius: 11px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+}
+
+.menuitem{
+    font-size: 17px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menubutton{
+    display: none;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.puff-in-tr {
+	animation: puff-in-tr 0.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes puff-in-tr {
+    0% {
+      transform: scale(2);
+      transform-origin: 100% 0%;
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 100% 0%;
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+@media (max-width:768px)
+{
+    .topcontent{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .maintext{
+        font-size: 35px;
+        margin: 0;
+        text-align: center;
+        padding-right: 30px;
+        font-weight: 700;
+    }
+ 
+    .menu{
+        display: none;
+        column-gap: 10px;
+        margin-left: auto;
+    }
+
+    .menubutton{
+        display: flex;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
