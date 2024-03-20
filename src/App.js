@@ -46,7 +46,7 @@ const RevealOnScroll = ({ children }) => {
 const App = () => {
   return (
     //basename={${process.env.PUBLIC_URL}}
-    <BrowserRouter basename={`${process.env.PUBLIC_URL}`} >
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`} >
       <Routes>
         <Route path="" element={<Maincomponents />}/>
         <Route path="/githubpages" element={<Search />}/>
