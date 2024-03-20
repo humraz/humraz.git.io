@@ -47,12 +47,12 @@ const App = () => {
   return (
     <BrowserRouter basename={"/"} >
       <Routes>
-        <Route path="" element={<Maincomponents />}/>
-        <Route path="githubpages" element={<Search />}/>
-        <Route path="Notifications" element={<Notifications />}/>
-        <Route path="Tictactoe" element={<Tictactoe />}/>
-        <Route path="Newshomepage" element={<Newshomepage />} />
-        <Route path="Entertainmentapp" element={<Entertainmentapp />} />
+        <Route path="/" element={<Maincomponents />}/>
+        <Route path="/githubpages" element={<Search />}/>
+        <Route path="/Notifications" element={<Notifications />}/>
+        <Route path="/Tictactoe" element={<Tictactoe />}/>
+        <Route path="/Newshomepage" element={<Newshomepage />} />
+        <Route path="/Entertainmentapp" element={<Entertainmentapp />} />
       </Routes>
     </BrowserRouter >
   );
