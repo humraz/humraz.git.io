@@ -2,7 +2,7 @@
   "name": "portfolio-test",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://humrazsait.in",
+  "homepage": "https://humrazsait.in/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

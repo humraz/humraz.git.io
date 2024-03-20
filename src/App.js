@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Timeline from "./components/Timeline";
 import React, { useEffect, useRef, useState } from "react";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { HashRouter , Route, Routes, Link } from "react-router-dom";
 import Search from "../src/components/GithubSearch/Search.jsx";
 import Notifications from "../src/components/NotificationsComponent/components/Notifications.jsx";
 import Tictactoe from "../src/components/Tictactoe/components/tictactoe.jsx"
@@ -45,16 +45,16 @@ const RevealOnScroll = ({ children }) => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Routes>
-        <Route path="/" element={<Maincomponents />}></Route>
-        <Route path="/githubpages" element={<Search />}></Route>
-        <Route path="/Notifications" element={<Notifications />}></Route>
-        <Route path="/Tictactoe" element={<Tictactoe />}></Route>
-        <Route path="/Newshomepage" element={<Newshomepage />} ></Route>
-        <Route path="/Entertainmentapp" element={<Entertainmentapp />} ></Route>
+        <Route path="/" element={<Maincomponents />}/>
+        <Route path="/githubpages" element={<Search />}/>
+        <Route path="/Notifications" element={<Notifications />}/>
+        <Route path="/Tictactoe" element={<Tictactoe />}/>
+        <Route path="/Newshomepage" element={<Newshomepage />} />
+        <Route path="/Entertainmentapp" element={<Entertainmentapp />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter >
   );
 };
 
