@@ -47,7 +47,7 @@ const App = () => {
   return (
     <BrowserRouter basename={"/"} >
       <Routes>
-        <Route path="/" element={<Maincomponents />}/>
+        <Route path="" element={<Maincomponents />}/>
         <Route path="/githubpages" element={<Search />}/>
         <Route path="/Notifications" element={<Notifications />}/>
         <Route path="/Tictactoe" element={<Tictactoe />}/>
