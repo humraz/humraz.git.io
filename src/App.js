@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Timeline from "./components/Timeline";
 import React, { useEffect, useRef, useState } from "react";
-import { HashRouter , Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter , Route, Routes, Link } from "react-router-dom";
 import Search from "../src/components/GithubSearch/Search.jsx";
 import Notifications from "../src/components/NotificationsComponent/components/Notifications.jsx";
 import Tictactoe from "../src/components/Tictactoe/components/tictactoe.jsx"
@@ -45,16 +45,17 @@ const RevealOnScroll = ({ children }) => {
 
 const App = () => {
   return (
-    <HashRouter >
+    //basename={${process.env.PUBLIC_URL}}
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}`} >
       <Routes>
-        <Route path="/" element={<Maincomponents />}/>
+        <Route path="" element={<Maincomponents />}/>
         <Route path="/githubpages" element={<Search />}/>
         <Route path="/Notifications" element={<Notifications />}/>
         <Route path="/Tictactoe" element={<Tictactoe />}/>
         <Route path="/Newshomepage" element={<Newshomepage />} />
         <Route path="/Entertainmentapp" element={<Entertainmentapp />} />
       </Routes>
-    </HashRouter >
+    </BrowserRouter >
   );
 };
 
