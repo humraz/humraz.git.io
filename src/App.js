@@ -11,6 +11,7 @@ import Notifications from "../src/components/NotificationsComponent/components/N
 import Tictactoe from "../src/components/Tictactoe/components/tictactoe.jsx"
 import Newshomepage from "../src/components/NewsHomepage/components/Homepage.jsx"
 import Entertainmentapp from "../src/components/EntertainmentWebApp/components/Navbar.jsx"
+import Slidervideos from "../src/components/Slidervideos.jsx"
 
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,17 +46,17 @@ const RevealOnScroll = ({ children }) => {
 
 const App = () => {
   return (
-    <Maincomponents />
-    // <BrowserRouter basename={"/"} >
-    //   <Routes>
-    //     <Route path="" element={<Maincomponents />}/>
-    //     <Route path="/githubpages" element={<Search />}/>
-    //     <Route path="/Notifications" element={<Notifications />}/>
-    //     <Route path="/Tictactoe" element={<Tictactoe />}/>
-    //     <Route path="/Newshomepage" element={<Newshomepage />} />
-    //     <Route path="/Entertainmentapp" element={<Entertainmentapp />} />
-    //   </Routes>
-    // </BrowserRouter >
+
+    <BrowserRouter basename={"/"} >
+      <Routes>
+        <Route path="" element={<Maincomponents />}/>
+        <Route path="/githubpages" element={<Search />}/>
+        <Route path="/Notifications" element={<Notifications />}/>
+        <Route path="/Tictactoe" element={<Tictactoe />}/>
+        <Route path="/Newshomepage" element={<Newshomepage />} />
+        <Route path="/Entertainmentapp" element={<Entertainmentapp />} />
+      </Routes>
+    </BrowserRouter >
   );
 };
 
@@ -71,6 +72,9 @@ function Maincomponents() {
         </RevealOnScroll>
         <RevealOnScroll>
           <Cards />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <Slidervideos />
         </RevealOnScroll>
         <RevealOnScroll>
           <Contact />

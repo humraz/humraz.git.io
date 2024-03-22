@@ -24,14 +24,12 @@ function Subcard(props) {
   return (
     <section id="skills">
       <div className="opacity-95 relative overflow-auto bg-white rounded-md  justify-center text-center">
-        <div className="grid grid-rows-3 gap-4 h-60">
-          <div className="p-3 text-sm font-bold ">
-            <p>{props.title}</p>
-          </div>
+        <div className="flex flex-col p-1">
+         
 
           <div className="p-5 flex justify-center items-center">
             <img
-              className="p-5 hover:scale-110 duration-500 object-contain"
+              className=" hover:scale-110 duration-500 object-contain"
               src={props.image}
               alt={props.title}
             ></img>
@@ -39,7 +37,7 @@ function Subcard(props) {
         </div>
         <div className=" bottom-5 right-5 left-5">
           <button
-            className="bg-black text-white hover:bg-blue-400  justify-end text-sm px-2 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-200 "
+            className="bg-black text-white hover:bg-blue-400  justify-end text-xs px-2 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-200 "
             type="button"
             onClick={() => setShowModal(true)}
           >
