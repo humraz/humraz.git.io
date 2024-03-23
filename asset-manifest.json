@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a4b3a27.css",
-    "main.js": "/static/js/main.b272eb09.js",
+    "main.css": "/static/css/main.cb33fa12.css",
+    "main.js": "/static/js/main.6589baac.js",
     "static/media/Webapp.mp4": "/static/media/Webapp.aad1629abe78d5af918a.mp4",
-    "static/media/tictactoe-video.mp4": "/static/media/tictactoe-video.27ca1e68d478345781a2.mp4",
+    "static/media/TicTacToe.mp4": "/static/media/TicTacToe.da051d0d4c0dc7b9ecf6.mp4",
+    "static/media/Cart.mp4": "/static/media/Cart.41babd37a350455a87db.mp4",
     "static/media/githubpages.mp4": "/static/media/githubpages.d987ef665b4bcc654da6.mp4",
+    "static/media/FirstVideo.mp4": "/static/media/FirstVideo.40865c6821e633b59105.mp4",
     "static/media/image-web-3-desktop.jpg": "/static/media/image-web-3-desktop.988d05305d18140f188c.jpg",
     "static/media/data.png": "/static/media/data.4343ab2a901b51933dfd.png",
     "static/media/react.png": "/static/media/react.35639ed930462bfcd544.png",
@@ -45,11 +47,11 @@
     "static/media/icon-menu-close.svg": "/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
     "static/media/icon-bookmark-empty.svg": "/static/media/icon-bookmark-empty.20ce7177c045bbdbd7948bd9b4220c58.svg",
     "static/media/icon-menu.svg": "/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
-    "main.9a4b3a27.css.map": "/static/css/main.9a4b3a27.css.map",
-    "main.b272eb09.js.map": "/static/js/main.b272eb09.js.map"
+    "main.cb33fa12.css.map": "/static/css/main.cb33fa12.css.map",
+    "main.6589baac.js.map": "/static/js/main.6589baac.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4b3a27.css",
-    "static/js/main.b272eb09.js"
+    "static/css/main.cb33fa12.css",
+    "static/js/main.6589baac.js"
   ]
 }
