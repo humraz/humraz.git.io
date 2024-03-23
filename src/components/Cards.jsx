@@ -48,7 +48,7 @@ function Subcard(props) {
 
       {showModal ? (
         <>
-          <div className="justify-center items-center flex flex-col overflow-auto  fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="justify-center items-center flex flex-col overflow-auto  text-black fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="w-auto mx-auto max-w-3xl">
               {/*content*/}
               <div className="border-1 rounded-lg shadow-lg relative  w-full bg-white outline-none focus:outline-none">

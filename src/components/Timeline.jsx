@@ -35,7 +35,7 @@ function Timeline() {
   return (
     <section id="experience">
       <div className="bg-white md:m-32 m-5  mb-20 justify-center h-full items-center rounded-3xl md:p-20 p-5">
-        <ol class="relative border-s border-gray-200 dark:border-gray-700 ">
+        <ol class="relative border-s border-gray-200 ">
           <RevealOnScroll>
             <Item
               date="03/2022 - Present"
@@ -65,20 +65,20 @@ function Item(props) {
 
   return (
     <li class="mb-10 ms-4">
-      <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time class="mb-1 text-sm font-bold leading-none text-black-400 dark:text-gray-500">
+      <div class="absolute w-3 h-3 text-black bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+      <time class="mb-1 text-sm font-bold leading-none text-black-400">
         {props.date}
       </time>
-      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+      <h3 class="text-lg font-semibold text-black">
         {props.title}
       </h3>
-      <p class="mb-4 text-base font-normal text-gray-900 dark:text-gray-400">
+      <p class="mb-4 text-base font-normal text-black">
         {props.description}
       </p>
       <button
         onClick={() => setShowModal(true)}
         type="button"
-        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 "
       >
         Read More
       </button>
@@ -96,7 +96,7 @@ function Item(props) {
 function Modal(props) {
   return (
     <>
-      <div className="justify-center items-center flex flex-col overflow-auto  fixed inset-0 z-50 outline-none focus:outline-none">
+      <div className="justify-center text-black items-center flex flex-col overflow-auto  fixed inset-0 z-50 outline-none focus:outline-none">
         <div className="w-auto mx-auto max-w-3xl">
           {/*content*/}
           <div className="border-1 rounded-lg shadow-lg relative  w-full bg-white outline-none focus:outline-none">

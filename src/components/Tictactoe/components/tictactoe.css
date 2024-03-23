@@ -37,6 +37,7 @@
     font-family: "Roboto Mono", monospace;
     color: white;
     text-align: center;
+    display: flex;
 }
 
 .textinmodal{

@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import tictactoevideo from "../assets/tictactoe-video.mp4";
+import tictactoevideo from "../assets/TicTacToe.mp4";
+import cart from "../assets/Cart.mp4"
 import webappvideo from "../assets/Webapp.mp4";
 import github from "../assets/githubpages.mp4"
+import first from "../assets/FirstVideo.mp4"
 
 import "../components/Sliderstyles.css";
 import "swiper/css";
@@ -26,9 +28,7 @@ export default function Slidervideos() {
   return (
     <>
       <div className="videosflex">
-        <div className="title">
-          <h1 >Project Highlights</h1>
-        </div>
+
         <div>
           <Swiper
             cssMode={true}
@@ -40,6 +40,13 @@ export default function Slidervideos() {
             className="mySwiper"
           >
             <div className="videos">
+            <SwiperSlide>
+                <video
+                autoplay="true"
+                  src={first}
+                  controls="controls"
+                ></video>
+              </SwiperSlide>
             <SwiperSlide>
                 <video
                   src={webappvideo}
@@ -58,7 +65,12 @@ export default function Slidervideos() {
                   controls="controls"
                 ></video>
               </SwiperSlide>
-              
+              <SwiperSlide>
+                <video
+                  src={cart}
+                  controls="controls"
+                ></video>
+              </SwiperSlide>
             </div>
           </Swiper>
         </div>
