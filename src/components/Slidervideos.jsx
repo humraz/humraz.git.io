@@ -41,7 +41,7 @@ export default function Slidervideos() {
           >
             <div className="videos">
             <SwiperSlide>
-                <img src={first}>
+                <img src={first} className="sliderfirstimage">
                 </img>
               </SwiperSlide>
             <SwiperSlide>
