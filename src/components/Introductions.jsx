@@ -9,8 +9,7 @@ const stringtoshow = [
   "a Java Specialist",
   "an Azure Architect",
   "an Innovator and Enabler",
-  "RPA Certified Specialist",
-  "a Dev Ops Professional",
+  "a RPA Certified Specialist"
 ];
 
 const resumeurl =

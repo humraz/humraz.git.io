@@ -26,7 +26,9 @@ function Subcard(props) {
       <div className="opacity-95 relative overflow-auto bg-white rounded-md  justify-center text-center">
         <div className="flex flex-col p-1">
          
-
+        <div className="text-black text-xs font-bold">
+          {props.title}
+        </div>
           <div className="p-5 flex justify-center items-center">
             <img
               className=" hover:scale-110 duration-500 object-contain"

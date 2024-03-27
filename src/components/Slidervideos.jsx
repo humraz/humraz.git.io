@@ -4,7 +4,7 @@ import tictactoevideo from "../assets/TicTacToe.mp4";
 import cart from "../assets/Cart.mp4"
 import webappvideo from "../assets/Webapp.mp4";
 import github from "../assets/githubpages.mp4"
-import first from "../assets/FirstVideo.mp4"
+import first from "../assets/highlights.png"
 
 import "../components/Sliderstyles.css";
 import "swiper/css";
@@ -41,11 +41,8 @@ export default function Slidervideos() {
           >
             <div className="videos">
             <SwiperSlide>
-                <video
-                autoplay="true"
-                  src={first}
-                  controls="controls"
-                ></video>
+                <img src={first}>
+                </img>
               </SwiperSlide>
             <SwiperSlide>
                 <video
